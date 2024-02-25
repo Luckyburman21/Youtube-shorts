@@ -424,6 +424,33 @@ footer > ul > li > span {
     position: unset;
     height: 80%;
   }
+ .left{
+  width: 80%;
+ }
+ nav {
+  width: 100%;
+  position: unset;
+  background-color: wheat;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+ 
+  
+}
+
+nav > ul {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: honeydew;
+  overflow: auto;
+ 
+}
+nav > ul > li {
+  margin-right: 1rem;
+}
   video {
     height: 35rem;
     width: 100%;

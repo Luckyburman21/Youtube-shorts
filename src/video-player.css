@@ -42,6 +42,7 @@ nav > ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+  overflow: auto;
 }
 .list-style {
   text-decoration: none;
@@ -234,19 +235,23 @@ footer > ul > li > span {
     background-color: black;
   }
   header {
-    height: 4rem;
+    height: 3rem;
     width: 100%;
     position: unset;
     background-image: linear-gradient(to left, #6c91cc, #2bbd50);
   }
-  .left {
-    width: 40%;
-  }
+  .left{
+ width: 100%;
+    justify-content: center;
+    gap: 1rem;
+   }
 
   nav {
     height: 4rem;
     width: 100%;
     position: unset;
+   
+  
   }
 
   nav > ul {
@@ -254,6 +259,7 @@ footer > ul > li > span {
     width: 100%;
     margin: 0;
     background-color: honeydew;
+  padding: 0 1rem;
   }
   nav > ul > li {
     margin-right: 1rem;
@@ -274,7 +280,7 @@ footer > ul > li > span {
     width: 100%;
     margin: 0;
     position: unset;
-    height: 80%;
+   
   }
   video {
     height: 57rem;
@@ -418,16 +424,20 @@ footer > ul > li > span {
 }
 
 @media (max-width: 500px) {
-  main {
-    width: 100%;
-    margin: 0;
-    position: unset;
-    height: 80%;
+  header{
+    height: 3.5rem;
   }
- .left{
-  width: 80%;
- }
+  main {
+    height: 35rem;
+    width: 100%;
+    margin: auto;
+    background-color: red;
+    position: unset;
+   
+  }
+ 
  nav {
+  height: 3.5rem;
   width: 100%;
   position: unset;
   background-color: wheat;
@@ -452,7 +462,7 @@ nav > ul > li {
   margin-right: 1rem;
 }
   video {
-    height: 35rem;
+    height: 100%;
     width: 100%;
     border-radius: 0;
     border: none;
@@ -463,7 +473,7 @@ nav > ul > li {
     height: 5rem;
     width: 90%;
     position: absolute;
-    bottom: 3rem;
+    bottom: 7rem;
     left: 0.2rem;
   }
   .first {
